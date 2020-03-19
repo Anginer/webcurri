@@ -44,10 +44,10 @@ document.addEventListener("DOMContentLoaded", function () {
         "value": 3,
         "random": true,
         "anim": {
-          "enable": true,
+          "enable": false,
           "speed": 19.18081918081918,
           "size_min": 0.1,
-          "sync": true
+          "sync": false
         }
       },
       "line_linked": {
