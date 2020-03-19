@@ -1,7 +1,7 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 @import url(https://fonts.googleapis.com/css?family=Montserrat);html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%
 }body{margin:0
-}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block
+}article,aside,details,figcaption,figure,footer,part,header,main,menu,nav,section{display:block
 }h1{font-size:2em;margin:.67em 0
 }figure{margin:1em 40px
 }hr{box-sizing:content-box;height:0;overflow:visible
@@ -1077,7 +1077,7 @@
 }.devicon-yii-plain-wordmark.colored,.devicon-yii-plain.colored{color:#0073bb
 }.devicon-zend-plain-wordmark.colored,.devicon-zend-plain.colored{color:#68b604
 }body{padding:0;font-size:100%;line-height:1.5;color:#555;font-family:'Montserrat',sans-serif
-}article,aside,figcaption,figure,footer,header,nav,section{display:block
+}article,aside,figcaption,figure,footer,part,header,nav,section{display:block
 }h1,h2,h3,h4,stong{margin-top:1em;padding-top:1em;line-height:1.25;color:#333
 }h1{font-size:2.5rem
 }h2{font-size:2rem
@@ -1108,7 +1108,7 @@
 }
 }.down{position:absolute;bottom:25px;width:100%;margin:0 auto;display:block;font-size:30px;cursor:pointer
 }.down .icon{position:absolute;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);width:100px;height:100px;fill:#fff;-webkit-animation:pulse 1.3s infinite;animation:pulse 1.3s infinite
-}.down .icon:active,.down .icon:hover,.footer a:active,.footer a:hover{color:#4b5664
+}.down .icon:active,.down .icon:hover,.footer a:active,.footer a:hover,.part a:active,.part a:hover{color:#4b5664
 }#about{width:90%;margin:0 auto;max-width:960px
 }@media only screen and (min-width:550px){#about{width:80%
 }
