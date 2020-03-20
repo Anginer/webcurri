@@ -4,15 +4,15 @@
   <body>
       {% include header.html %}
       
-      <section>
+      <section id="experiences">
         {% include experiences.html %}
-       <!--</section>-->
-      
-       <!--<section id="educations">-->
-        {% include educations.html %}
       </section>
       
-        
+      <section id="projects">
+        {% include educations.html %}
+        <!-- {% include projects.html %} -->
+      </section>
+      
       <section id="about">
         {% include about.html %}
       </section>
@@ -20,7 +20,3 @@
         {{ content }}
       {% include footer.html %}
   </body>
-
-
-
-        <!-- {% include projects.html %} -->
