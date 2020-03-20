@@ -109,6 +109,7 @@
 
 
 .user-experiences {
+  border: 2px solid black; 
   display: flex;
   flex-wrap: wrap;
   margin: 20px auto;
@@ -132,19 +133,20 @@
 .images-top {
   flex: 40%;
   background-color: #FFF;
-  border: 2px solid black; 
   @media only screen and (min-width: $cut) {
     width: 48%;
   }
   img {
     @media only screen and (min-width: $cut) {
       width: 48%;
+      text-align: center;
       display: block;
       margin: auto;
     }
   }
 }
 .contents-bottom {
+  padding-left:5px;
   flex: 60%;
   background-color: #f1f1f1;
   @media only screen and (min-width: $cut) {
