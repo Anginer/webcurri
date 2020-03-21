@@ -11,6 +11,25 @@
 }
 
 .user-projects {
+  margin: 20px auto;
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  h5 {
+    margin: 0;
+  }
+  li {
+    color: $main;
+    font-size: 1.1rem;
+  }
+  p {
+    margin-right: 5px;
+  }
+}
+
+.user-presentation {
   display: flex;
   flex-wrap: wrap;
   margin: 20px auto;
@@ -26,12 +45,18 @@
     margin-bottom: 0;
   }
   li {
-    color: $main;
+    color: $main; 
     font-size: 1.1rem;
   }
   p {
     margin-top: 5px;
     margin-right: 5px;
+  }
+}
+
+@media only screen and (max-width: $cut) {
+  .user-presentation {
+  flex-direction: column;
   }
 }
 
@@ -46,7 +71,6 @@
   flex: 65%;
   margin-left: 5%;
   @media only screen and (min-width: $cut) {
-    float: right;
     margin-top: -5%;
     width: 48%;
   }
@@ -73,12 +97,12 @@
 .images-left {
   flex: 30%;
   @media only screen and (min-width: $cut) {
-    float: left;
+    /*float: left;*/
     width: 48%;
   }
   img {
     @media only screen and (min-width: $cut) {
-      float: left;
+     /* float: left;*/
     }
   }
 }
