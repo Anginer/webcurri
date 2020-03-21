@@ -33,10 +33,10 @@
 }
 
 .user-transition {
-  background: $main; /*#1a222c; */ 
+  /*background: $main; /*#1a222c; */ 
   padding: 10px 0;
   margin-top: 10px;
-  text-align: center;
-  color: #FFF;
+  text-align: left;
+  color: $main; /*#FFF;*/
   font-size: xx-large;
 }
