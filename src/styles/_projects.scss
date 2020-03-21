@@ -11,6 +11,8 @@
 }
 
 .user-projects {
+  display: flex;
+  flex-wrap: wrap;
   margin: 20px auto;
   img {
     max-width: 100%;
@@ -20,11 +22,15 @@
   h5 {
     margin: 0;
   }
+  h3 {
+    margin-bottom: 0;
+  }
   li {
     color: $main;
     font-size: 1.1rem;
   }
   p {
+    margin-top: 5px;
     margin-right: 5px;
   }
 }
@@ -37,6 +43,8 @@
 }
 
 .contents-right {
+  flex: 65%;
+  margin-left: 5%;
   @media only screen and (min-width: $cut) {
     float: right;
     margin-top: -5%;
@@ -63,6 +71,7 @@
   }
 }
 .images-left {
+  flex: 30%;
   @media only screen and (min-width: $cut) {
     float: left;
     width: 48%;
