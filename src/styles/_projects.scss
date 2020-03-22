@@ -68,7 +68,7 @@
 }
 
 .contents-right {
-  flex: 65%;
+  flex: 70%;
   margin-left: 5%;
   @media only screen and (min-width: $cut) {
     margin-top: -5%;
@@ -95,7 +95,7 @@
   }
 }
 .images-left {
-  flex: 30%;
+  flex: 25%;
   @media only screen and (min-width: $cut) {
     /*float: left;*/
     width: 48%;
