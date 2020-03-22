@@ -13,10 +13,15 @@
         {% include educations.html %}
       </section>
       
+      <div class="footer" id="about" >
+        <h1> About me </h1>
+        <p> {{site.user_description}} </p>
+      </div>
       <section id="projects">
         {% include about.html %}
       </section>
 
         {{ content }}
+
       {% include footer.html %}
   </body>
