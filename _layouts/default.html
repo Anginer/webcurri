@@ -5,21 +5,11 @@
   <body>
       {% include header.html %}
       
-      <section id="projects">
-        {% include experiences.html %}
-      </section>
+      {% include experiences.html %}
       
-      <section id="projects">
-        {% include educations.html %}
-      </section>
-      
-      <div class="footer" id="about" >
-        <h1> About me </h1>
-        <p> {{site.user_description}} </p>
-      </div>
-      <section id="projects">
-        {% include about.html %}
-      </section>
+      {% include educations.html %}
+
+      {% include about.html %}
 
         {{ content }}
 
