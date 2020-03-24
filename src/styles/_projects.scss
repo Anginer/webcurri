@@ -71,8 +71,12 @@
   flex: 70%;
   margin-left: 5%;
   @media only screen and (min-width: $cut) {
-    margin-top: -5%;
+    //margin-top: -5%;
     width: 48%;
+  }  
+  h3 {
+    margin-top: 0;
+    padding-top: 0;
   }
 }
 .images-right {
