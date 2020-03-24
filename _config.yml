@@ -1,12 +1,12 @@
 # Site settings
 title: Clément Changeur
-description: Hi, I'm a CyberSecurity engineer and this is a quick personnal presentation
+description: French cyberSecurity engineer presentation
 baseurl: "" # "/blog" the subpath of your site, e.g. /blog/
 # url: "http://localhost:3000" # the base hostname & protocol for your site
 
 # User settings
 username: Clément Changeur
-user_description: French cyberSecurity engineer, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+user_description: #French cyberSecurity engineer, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
 user_title: CyberSecurity Engineer
 email: clement@changeur.me
 github_username: cchangeur
