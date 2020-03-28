@@ -79,7 +79,45 @@
     padding-top: 0;
   }
 }
+
+.images-left {
+  flex: 25%;
+  @media only screen and (min-width: $cut) {
+    /*float: left;*/
+    width: 48%;
+  }
+  img {
+    @media only screen and (min-width: $cut) {
+     /* float: left;*/
+    }
+  }
+}
+
+.contents-left {
+  flex: 50%;
+  margin-right: 5%;
+  @media only screen and (min-width: $cut) {
+    //margin-top: -5%;
+    width: 48%;
+  }
+}
+
 .images-right {
+  margin-top: 5%;
+  flex: 45%;
+  @media only screen and (min-width: $cut) {
+    /*float: right;*/
+    width: 48%;
+  }
+  img {
+    @media only screen and (min-width: $cut) {
+     /* float: right;*/
+    }
+  }
+}
+
+
+/*.images-right {
   @media only screen and (min-width: $cut) {
     float: right;
     width: 48%;
@@ -98,18 +136,8 @@
     width: 48%;
   }
 }
-.images-left {
-  flex: 25%;
-  @media only screen and (min-width: $cut) {
-    /*float: left;*/
-    width: 48%;
-  }
-  img {
-    @media only screen and (min-width: $cut) {
-     /* float: left;*/
-    }
-  }
-}
+
+}*/
 
 .project-link {
   display: inline-block;
